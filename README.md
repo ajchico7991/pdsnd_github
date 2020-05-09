@@ -1,15 +1,18 @@
-### Date created
-Include the date you created this project and README file.
+### Date
+File created on 5/9/20
 
-### Project Title
-Replace the Project Title
+
+### Title
+Python Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+In this project, I made use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington.  I wrote code to import the data and answer interesting questions about it by computing descriptive statistics. I also wrote a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+
 
 ### Files used
-Include the files used
+final_bikeshare.py
+README.md
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thank you to the Udacity mentors that answered all my questions.
