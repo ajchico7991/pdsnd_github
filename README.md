@@ -14,6 +14,9 @@ Concepts in this project include for and while loops, dictionaries, numpy, and p
 ### Files used
 final_bikeshare.py
 README.md
+chicago.csv (not uploaded)
+new_york_city.csv(not uploaded)
+washington.csv(not uploaded)
 
 
 ### Credits
