@@ -193,9 +193,9 @@ def user_stats(df):
         min_birth_year = df['Birth Year'].min()
         max_birth_year = df['Birth Year'].max()
         common_birth_year = df['Birth Year'].mode()[0]
-        print('The earliest birth year was', str(int(min_birth_year)))
-        print('The most recent birth year was',str(int(max_birth_year)))
-        print('The most common birth year was',str(int(common_birth_year)))
+        print('The earliest birth year:', str(int(min_birth_year)))
+        print('The most recent birth year:',str(int(max_birth_year)))
+        print('The most common birth year:',str(int(common_birth_year)))
 
     else:
         print('No birth year data')
@@ -223,12 +223,12 @@ def main():
         #return at least 5 rows of information
         raw = input('\nWould you like to see 5 rows from the data?\nPlease enter yes or no\n').lower()
         if raw in ('yes'):
-            a = 0
-            b = 5
+            i = 0
+            
             while True:
-                print(df.iloc[a:b])
-                a += 5
-                b += 5
+                print(df.iloc[i:i+5])
+                i += 5
+        
                 add_five = input('Would you like to see 5 more rows of data?\nPlease enter yes or no:\n ').lower()
                 if add_five not in ('yes'):
                     break
