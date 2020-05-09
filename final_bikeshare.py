@@ -193,9 +193,9 @@ def user_stats(df):
         min_birth_year = df['Birth Year'].min()
         max_birth_year = df['Birth Year'].max()
         common_birth_year = df['Birth Year'].mode()[0]
-        print('The earliest birth year was', str(int(min_birth_year)))
-        print('The most recent birth year was',str(int(max_birth_year)))
-        print('The most common birth year was',str(int(common_birth_year)))
+        print('The earliest birth year:', str(int(min_birth_year)))
+        print('The most recent birth year:',str(int(max_birth_year)))
+        print('The most common birth year:',str(int(common_birth_year)))
 
     else:
         print('No birth year data')
